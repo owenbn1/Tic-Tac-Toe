@@ -1,0 +1,51 @@
+.container {
+  text-align: center;
+}
+
+.button {
+  margin-bottom: 30px;
+}
+
+table {
+  margin: 0px auto;
+}
+
+.cell {
+  width: 13rem;
+  height: 200px;
+  border: 2px solid #000;
+  font-size: 125px;
+  text-align: center;
+  cursor: pointer;
+}
+
+#cell-0 {
+  border-top: none;
+  border-left: none;
+}
+
+#cell-1 {
+  border-top: none;
+}
+
+#cell-2 {
+  border-top: none;
+  border-right: none;
+}
+#cell-3 {
+  border-left: none;
+}
+#cell-5 {
+  border-right: none;
+}
+#cell-6 {
+  border-bottom: none;
+  border-left: none;
+}
+#cell-7 {
+  border-bottom: none;
+}
+#cell-8 {
+  border-bottom: none;
+  border-right: none;
+}

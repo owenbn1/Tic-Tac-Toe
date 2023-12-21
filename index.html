@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tic Tac Toe App</title>
+    <link rel="stylesheet" href="index.css" />
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.css"
+    />
+  </head>
+  <body>
+    </div>
+    <div class="container">
+      <h1>Tic Tac Toe</h1>
+      <br />
+      <div class="button">
+        <button id="restart" class="btn btn-warning btn-lg" type="button">
+          Restart
+        </button>
+      </div>
+      <div id="gameStatus" class="alert alert-secondary" role="alert"></div>
+
+      <table id="game">
+        <tr>
+          <td class="cell" id="cell-0"></td>
+          <td class="cell" id="cell-1"></td>
+          <td class="cell" id="cell-2"></td>
+        </tr>
+        <tr>
+          <td class="cell" id="cell-3"></td>
+          <td class="cell" id="cell-4"></td>
+          <td class="cell" id="cell-5"></td>
+        </tr>
+        <tr>
+          <td class="cell" id="cell-6"></td>
+          <td class="cell" id="cell-7"></td>
+          <td class="cell" id="cell-8"></td>
+        </tr>
+      </table>
+      <br>
+      <h2 id="statusTurnText"> </h2>
+    </div>
+  </body>
+  <script src="index.js"></script>
+  <script src="node_modules/jquery/dist/jquery.js"></script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</html>
